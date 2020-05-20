@@ -1,5 +1,4 @@
-# MAPA-EDI
-### MAPA - Estrutura de Dados I - 2020
+# MAPA - Estrutura de Dados I - 2020
 
 Todo dispositivo digital, internamente, trabalha com dados formatados em estruturas específicas para resolver problemas particulares. Na vida profissional de um desenvolvedor, frequentemente, ele irá se deparar com situações nas quais é preciso identificar qual estrutura de dados é a mais adequada para determinada função.
 
