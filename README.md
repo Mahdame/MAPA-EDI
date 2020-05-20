@@ -20,7 +20,7 @@ Você deverá desenvolver um programa em Linguagem C que execute os seguintes pa
 
 ------------
 
-**Observação importante: ** seu código-fonte deve declara duas estruturas de dados tipo pilha distintas. A primeira impressão dos dados que seu programa deve fazer está relacionada ao conteúdo da primeira pilha (itens 1 e 2 do passo a passo apresentado acima). Já a segunda impressão dos dados que seu programa fará, está relacionada aos dados que foram inseridos na segunda pilha.
+**Observação importante:** seu código-fonte deve declara duas estruturas de dados tipo pilha distintas. A primeira impressão dos dados que seu programa deve fazer está relacionada ao conteúdo da primeira pilha (itens 1 e 2 do passo a passo apresentado acima). Já a segunda impressão dos dados que seu programa fará, está relacionada aos dados que foram inseridos na segunda pilha.
 
 O resultado da execução do seu algoritmo, supondo que seu R.A. é igual ao número  12345678, deverá ser algo parecido com o seguinte:
 
