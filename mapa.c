@@ -6,7 +6,7 @@
 
 struct Pilha
 {
-    int ra[8];
+    int ra[tamanho];
     int ini;
     int top;
 };
@@ -86,14 +86,11 @@ void desempilha_tudo()
     }
     else
     {
-        pilha_dois.ra[0] = pilha_um.ra[7];
-        pilha_dois.ra[1] = pilha_um.ra[6];
-        pilha_dois.ra[2] = pilha_um.ra[5];
-        pilha_dois.ra[3] = pilha_um.ra[4];
-        pilha_dois.ra[4] = pilha_um.ra[3];
-        pilha_dois.ra[5] = pilha_um.ra[2];
-        pilha_dois.ra[6] = pilha_um.ra[1];
-        pilha_dois.ra[7] = pilha_um.ra[0];
+        for (int i = 0; i < tamanho; i++)
+        {
+            pilha_dois.ra[i] = pilha_um.ra[tamanho - 1 - i];
+        }
+        
     }
 }
 
